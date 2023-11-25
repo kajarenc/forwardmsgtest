@@ -31,7 +31,7 @@ if app_url:
                 values.append(sample.value)
 
         st.subheader(
-            "Memory consumed by cache primitives, session_state and ForwardMSGCache, in megabytes",
+            'Memory consumed by streamlit "caches" in megabytes',
             divider="violet"
             )
 
